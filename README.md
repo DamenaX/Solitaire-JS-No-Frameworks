@@ -1,3 +1,4 @@
+<img width="1894" height="843" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/cb5c5158-63b1-4e1e-a39e-02e54d849a51" />
 # Solitaire JS No Framewroks
 
 This is a small, self-contained Javascript project built with the intentional constraint of not using frameworks or ANY external libraries, my focus was primarily on **understanding the essence of javascript and first-principles implementation without relying on the abstractions given by the popular frameworks.**
@@ -12,7 +13,7 @@ For detailed rules and history, see the
 
 
 <img width="1538" height="691" alt="image" src="https://github.com/user-attachments/assets/cdece356-b1fe-493b-a84b-167a72b9eadb" />
-<img width="1894" height="843" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/cb5c5158-63b1-4e1e-a39e-02e54d849a51" />
+
 <img width="1889" height="842" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/48b8b885-6c72-449e-a459-02dbec4a14e5" />
 
 ## Tech Stack

@@ -1,4 +1,8 @@
-<img width="1894" height="843" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/cb5c5158-63b1-4e1e-a39e-02e54d849a51" />
+<img width="1920" height="827" alt="image" src="https://github.com/user-attachments/assets/28ada990-d3fd-40b0-a3b1-d23d26476c73" /><
+
+### Play: https://damenax.github.io/Solitaire-JS-No-Frameworks/
+
+
 # Solitaire JS No Framewroks
 
 This is a small, self-contained Javascript project built with the intentional constraint of not using frameworks or ANY external libraries, my focus was primarily on **understanding the essence of javascript and first-principles implementation without relying on the abstractions given by the popular frameworks.**

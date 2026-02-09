@@ -100,18 +100,19 @@ section {
     color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     #main-container {
-        height: 40dvh;
-        justify-content: space-between;
+        /* height: 40dvh; */
+        justify-content: flex-start;
     }
 
     #places-container {
         margin-top: 64px;
+        margin-bottom: 200px;
     }
     
     #foundation-section {
-        margin-bottom: 10vh;
+        margin-bottom: 5vh;
     }
 
 

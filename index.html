@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Solitaire</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        <button class="newgame" id="newgamelink">New Game</button>
-        <section id="foundation-section">
-            <div class="foundation-place place" id="f-place-one"></div>
-            <div class="foundation-place place" id="f-place-two"></div>
-            <div class="foundation-place place" id="f-place-three"></div>
-            <div class="foundation-place place" id="f-place-four"></div>
-        </section>
+<head>
+    <title>Solitaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <section id="active-section">
-            <div class="active-place place" id="a-place-one">
+<body>
+    <div id="main-container">
+
+        <div id="upper-section">
+            <div id="menu-section">
+                <button class="newgame" id="newgamelink">New Game</button>
             </div>
-            <div class="active-place place" id="a-place-two">
-            </div>
-            <div class="active-place place" id="a-place-three"></div>
-            <div class="active-place place" id="a-place-four"></div>
-            <div class="active-place place" id="a-place-five"></div>
-            <div class="active-place place" id="a-place-six"></div>
-            <div class="active-place place" id="a-place-seven"></div>
-        </section>
+            <section id="places-container">
+                <section id="foundation-section">
+                    <div class="foundation-place place" id="f-place-one"></div>
+                    <div class="foundation-place place" id="f-place-two"></div>
+                    <div class="foundation-place place" id="f-place-three"></div>
+                    <div class="foundation-place place" id="f-place-four"></div>
+                </section>
+
+                <section id="active-section">
+                    <div class="active-place place" id="a-place-one">
+                    </div>
+                    <div class="active-place place" id="a-place-two">
+                    </div>
+                    <div class="active-place place" id="a-place-three"></div>
+                    <div class="active-place place" id="a-place-four"></div>
+                    <div class="active-place place" id="a-place-five"></div>
+                    <div class="active-place place" id="a-place-six"></div>
+                    <div class="active-place place" id="a-place-seven"></div>
+                </section>
+            </section>
+        </div>
+
+
 
         <section id="deck-section">
             <div id="deck-pile" class="place">
@@ -33,13 +44,13 @@
             <div id="reveal-place" class="place"></div>
         </section>
 
-        
+
         <div id="welcome-box" class="msg-box">
             <div id="welcome-content">
                 <h1>Welcome to my Game!</h1>
                 <p>This is a Solitaire game. Not spider solitaire! it follows the standard Klondike rules
                     with the exception of allowing movement to piles of the same color in the tablaue piles.
-                    The game was developed with vanilla JavaScript without any frameworks or libraries. 
+                    The game was developed with vanilla JavaScript without any frameworks or libraries.
                     I hope you will have fun!
                 </p>
                 <h2>Developed by Daniel</h2>
@@ -77,7 +88,9 @@
                 <button id="cancel-button" class="canceling">Cancel</button>
             </div>
         </div>
+    </div>
 
-        <script src="script.js"></script>
-    </body>
+    <script src="script.js"></script>
+</body>
+
 </html>

@@ -1,5 +1,13 @@
 body {
-    background-color:forestgreen;
+    background-color: forestgreen;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90dvh;
+    padding-bottom: 12px;
 }
 
 img {
@@ -9,29 +17,39 @@ img {
 }
 
 .place {
-    height: 125px;
-    width: 81.7px;
+    width: 5.5vw;
+    aspect-ratio: 691 / 1056;
     border: 2px solid #ffffff;
     overflow: unset;
     position: relative;
+    margin: 0 12px;
 }
 
 section {
     display: flex;
-    margin-top: 30px;
+}
+
+#places-container {
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #foundation-section {
-    padding-left: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     padding-right: 5%;
-    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 #active-section {
-    padding-left: 20%;
-    padding-right: 20%;
-    justify-content: space-around;
-    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#active-section .place {
+    margin: 0 24px;
 }
 
 #deck-section {
@@ -43,7 +61,7 @@ section {
 .msg-box {
     width: 650px;
     max-height: 300px;
-    border: 2px solid #132a13; 
+    border: 2px solid #132a13;
     border-radius: 15px;
     background-color: rgb(65, 184, 65);
     position: absolute;
@@ -51,7 +69,7 @@ section {
     right: 60%;
     top: 20%;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     padding: 15px 35px 15px 35px;
 }
 
@@ -66,7 +84,8 @@ section {
     text-align: justify;
 }
 
-#confirmation-box.hidden-content, .hidden-content {
+#confirmation-box.hidden-content,
+.hidden-content {
     display: none;
 }
 
@@ -79,4 +98,21 @@ section {
 
 #newgamelink:hover {
     color: black;
+}
+
+@media (max-width: 1024px) {
+    #main-container {
+        height: 40dvh;
+        justify-content: space-between;
+    }
+
+    #places-container {
+        margin-top: 64px;
+    }
+    
+    #foundation-section {
+        margin-bottom: 10vh;
+    }
+
+
 }

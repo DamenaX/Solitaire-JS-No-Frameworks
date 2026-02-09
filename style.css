@@ -115,5 +115,10 @@ section {
         margin-bottom: 5vh;
     }
 
-
+    #newgamelink {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 32px;
+}
 }
